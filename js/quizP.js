@@ -1,17 +1,17 @@
 document.querySelector(".enviar").addEventListener("click", function () {
         const respostasCorretas = {
-            q1: 1, // B
-            q2: 1, // B
-            q3: 2, // C
-            q4: 1, // B
-            q5: 1, // B
-            q6: 2, // C
-            q7: 2, // C
-            q8: 1, // B
-            q9: 1, // B
-            q10: 1 // B
+            q1: 1, 
+            q2: 1, 
+            q3: 2, 
+            q4: 1, 
+            q5: 1, 
+            q6: 2, 
+            q7: 2, 
+            q8: 1, 
+            q9: 1, 
+            q10: 1 
         };
-
+        
         let acertos = 0;
 
         for (let pergunta in respostasCorretas) {

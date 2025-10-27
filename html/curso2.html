@@ -11,27 +11,41 @@
 
 <body>
     <header>
-        <img class="logo" src="../imagens/logo.jpg" alt="">
+        <img class="logo" src="../imagens/logo.jpg" alt="Logo da empresa">
         <div class="container-titulo">
             <p class="titulo">Não Perecíveis</p>
             <hr class="linha">
         </div>
         <a class="voltar" href="../html/index.html"><i class="bi bi-arrow-left-short"></i></a>
     </header>
+
     <main class="conteudo">
-    <div class="texto-lateral">
-        <h2>Controle de Qualidade</h2>
-        <p>Entenda os critérios essenciais para garantir que produtos perecíveis cheguem ao consumidor com segurança, mantendo frescor e valor nutricional.</p>
-    </div>
+        <div class="texto-lateral">
+            <h2>Controle de Qualidade</h2>
+            <p>Aprenda a garantir que os produtos não perecíveis mantenham sua integridade, segurança e qualidade durante
+                todas as etapas de transporte e armazenamento.</p>
+        </div>
 
-    <iframe src="../slides/Treinamento em Produtos (1).pdf" class="video"></iframe>
+        <div class="pdf-container">
+            <img id="slideFrame" src="../slides/NP/Treinamento não perecíveis_page-0001.jpg" class="video"
+                alt="Slide de treinamento - Não Perecíveis">
 
-    <div class="texto-lateral">
-        <h2>Boas Práticas</h2>
-        <p>Descubra as técnicas recomendadas de armazenamento, transporte e manuseio que reduzem perdas e aumentam a vida útil dos perecíveis.</p>
-    </div>
-</main>
+            <div class="pdf-controles">
+                <button id="voltarSlide"><i class="bi bi-arrow-left-short"></i></button>
+                <button id="proximoSlide"><i class="bi bi-arrow-right-short"></i></button>
+            </div>
 
+            <a id="btnContinuar" href="../html/quizNP.html" class="continuar" style="display:none;">Continuar</a>
+        </div>
+
+        <div class="texto-lateral">
+            <h2>Boas Práticas</h2>
+            <p>Conheça os cuidados ideais com empilhamento, ventilação e controle de umidade para prolongar a vida útil e
+                preservar a qualidade dos produtos não perecíveis.</p>
+        </div>
+    </main>
+
+    <script src="../js/NP.js"></script>
 </body>
 
 </html>
