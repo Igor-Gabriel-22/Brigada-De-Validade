@@ -92,12 +92,12 @@ main{
 }
 
 #front{
-    background: rgb(0, 191, 255);
+    background: #f9a11e;
 }
 
 #back{
-    background: rgb(46, 3, 91);
-    color: white;
+    background: gold;
+    color: black;
     transform: rotateX(180deg);
 }
 
@@ -111,7 +111,7 @@ main{
 
 /* BUTTON */
 #flipBtn {
-  background: #005bb5;
+  background: gold;
   color: white;
   border: none;
   border-radius: 5px;
@@ -121,8 +121,34 @@ main{
   transition: background 0.3s;
 }
 
+/* ===== BOTÃO DE SAIR ===== */
+.btn-logout {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  right: 5%;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-logout:hover {
+  background-color: #ff4d5a;
+  transform: translateY(-2px) scale(1.05);
+}
+
+.btn-logout:active {
+  transform: scale(0.97);
+}
+
+
 #flipBtn:hover {
-  background: #35bcff;
+  background: #f9a11e;
   transform: scale(1.02);
   color: #222;
   transition: all 0.3s ease;
@@ -210,6 +236,12 @@ main{
 
   .tabela {
     font-size: 11px;
+  }
+
+  .btn-logout{
+    right: 12%;
+    padding: 5px 10px;
+    font-size: 14px;
   }
 
   #flipBtn {
