@@ -23,41 +23,8 @@
     <p>Escolha abaixo uma das categorias disponíveis para visualizar suas atividades</p>
     <br />
 
-    <button id="flipBtn" type="button">Em andamento</button>
-
     <section id="card" class="card">
-      <!-- Frente - Cursos em andamento -->
-      <article id="front">
-        <h2>Cursos em Andamento</h2>
-        <p>Aqui estão os cursos que você está atualmente matriculado e em andamento.</p>
 
-        <table class="tabela">
-          <thead>
-            <tr>
-              <th>Nome do Curso</th>
-              <th>Certificado</th>
-              <th>Data Início</th>
-              <th>Data Fim</th>
-              <th>Participante</th>
-              <th>Horas</th>
-              <th>Instituição</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Curso Exemplo 1</td>
-              <td><button disabled>Indisponível</button></td>
-              <td>01/09/2024</td>
-              <td>Em andamento</td>
-              <td id="alunoNome1">Nome do Aluno</td>
-              <td>40h</td>
-              <td>Minha Instituição</td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-
-      <!-- Verso - Cursos concluídos -->
       <article id="back">
         <h2>Cursos Concluídos</h2>
         <p>Aqui estão os cursos que você já concluiu.</p>
@@ -73,9 +40,21 @@
           </thead>
           <tbody>
             <tr>
-              <td>Curso Exemplo Concluído</td>
+              <td>Perecíveis</td>
               <td><button onclick="imprimirCertificado()">Imprimir</button></td>
               <td id="alunoNome2">Nome do Aluno</td>
+              <td>SENAC</td>
+            </tr>
+            <tr>
+              <td>Não Perecíveis</td>
+              <td><button onclick="imprimirCertificado()">Imprimir</button></td>
+              <td id="alunoNome1">Nome do Aluno</td>
+              <td>SENAC</td>
+            </tr>
+            <tr>
+              <td>Não alimenticíos</td>
+              <td><button onclick="imprimirCertificado()">Imprimir</button></td>
+              <td id="alunoNome3">Nome do Aluno</td>
               <td>SENAC</td>
             </tr>
           </tbody>

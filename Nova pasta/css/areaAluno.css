@@ -91,35 +91,13 @@ main{
     gap: 1rem;
 }
 
-#front{
-    background: #f9a11e;
-}
-
 #back{
     background: gold;
     color: black;
-    transform: rotateX(180deg);
 }
 
-.card.flipped #front{
-    transform: rotateX(180deg);
-}
 
-.card.flipped #back{
-    transform: rotateX(0deg);
-}
 
-/* BUTTON */
-#flipBtn {
-  background: gold;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
 
 /* ===== BOTÃO DE SAIR ===== */
 .btn-logout {
