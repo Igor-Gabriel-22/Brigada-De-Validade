@@ -89,7 +89,7 @@ body, .titulo, b, i, marquee{
     object-fit: cover;
     position: absolute;
     opacity: 0;
-    transition: opacity 0.1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 .banners.active {
@@ -573,7 +573,7 @@ footer a{
     }
 
     .banners:nth-child(1){
-        content: "../assets/1000035907.jpg";
+        content: "{{ url_for('static', filename='1000035907.jpg') }}";
     }
 
     .banners {
