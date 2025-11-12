@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("form");
 
@@ -29,5 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Cadastro realizado com sucesso!");
     form.reset();
 
+    window.location.href = "../html/Login.html";
   });
 });

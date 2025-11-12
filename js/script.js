@@ -21,10 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
 
   if (usuarioLogado) {
-    if (btnAreaAluno) btnAreaAluno.style.display = "inline-block";
-    if (btnLogin) btnLogin.style.display = "none";
-  } else {
     if (btnAreaAluno) btnAreaAluno.style.display = "none";
-    if (btnLogin) btnLogin.style.display = "inline-block";
+  } else {
+    if (btnAreaAluno) btnAreaAluno.style.display = "inline-block";
   }
 });
