@@ -18,12 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
   if (nome2) nome2.textContent = usuarioLogado.nome;
   if (nome3) nome3.textContent = usuarioLogado.nome;
 
-  // Verifica se os cursos foram concluídos
   const curso1 = localStorage.getItem("cursoPereciveisConcluido");
   const curso2 = localStorage.getItem("cursoNaoPereciveisConcluido");
   const curso3 = localStorage.getItem("cursoNaoAlimenticiosConcluido");
 
-  // Bloqueia / desbloqueia botões
   if (!curso1) {
     btn1.disabled = true;
     btn1.textContent = "Conclua o quiz primeiro";
