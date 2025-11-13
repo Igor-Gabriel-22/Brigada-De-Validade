@@ -57,6 +57,9 @@ document.querySelector(".enviar").addEventListener("click", function () {
     if (acertos >= 7) {
         texto.innerHTML = `🎉 <b>Parabéns!</b><br>Você acertou <b>${acertos}</b> questões!<br><br>✅ Você passou!<br><br>📜 Pode imprimir seu certificado na Área do Aluno.`;
 
+
+        localStorage.setItem("cursoNaoAlimenticiosConcluido", true);
+
         const botao = document.createElement("button");
         botao.textContent = "Ir para Área do Aluno";
         botao.style.padding = "10px 15px";
