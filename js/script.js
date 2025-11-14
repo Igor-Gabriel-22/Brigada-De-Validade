@@ -26,7 +26,3 @@ nextBtn.addEventListener("click", nextBanner);
 prevBtn.addEventListener("click", prevBanner);
 
 showBanner();
-
-console.log(`🎉 Você achou o easter egg!! 🥳
-Bom, pessoal, foi muito bom trabalhar com vocês! 🙌
-Se tivéssemos a chance de voltar atrás, faríamos tudo de novo — e ainda melhor. 💪💫`)
